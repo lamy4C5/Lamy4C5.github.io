@@ -28,7 +28,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 25px; /* Increased margin */
 }
 
 nav ul li a {
