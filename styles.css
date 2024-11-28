@@ -7,27 +7,49 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
     text-align: center;
-    padding: 1rem;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+    display: inline-block;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin: 0 15px;
 }
 
 nav ul li a {
+    color: white;
     text-decoration: none;
-    color: #333;
 }
 
 section {
-    margin: 2rem;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+li {
+    margin-bottom: 10px;
 }
