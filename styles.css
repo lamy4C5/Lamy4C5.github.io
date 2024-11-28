@@ -36,6 +36,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 section {
     max-width: 800px;
     margin: 20px auto;
@@ -52,4 +56,14 @@ ul {
 
 li {
     margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
